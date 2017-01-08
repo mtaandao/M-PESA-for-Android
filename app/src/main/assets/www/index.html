@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>M-PESA Online</title>
+  <link rel="stylesheet" href="app.css">
+  <style>
+a:link    {color:white; text-decoration:none}
+a:visited {color:red; background-color:transparent; text-decoration:none}
+a:hover   {color:green; background-color:transparent; text-decoration:underline}
+a:active  {color:yellow; background-color:transparent; text-decoration:underline}
+</style>
+</head>
+
+  <body>
+  <div class="login">
+    <center><div class="login-screen">
+      <div class="app-logo">
+        <img src="mpesa-white.png" width="250px">
+      </div>
+
+      <form class="login-form" action="http://banda.mtaandao.co.ke/app/pay/request.php" method="POST">
+        <p class="control-group">
+        <input type="text" class="login-field" placeholder="Phone: 2547XXXXXXXX" name="number" value="2547">
+        </p>
+
+        <p class="control-group">
+        <input type="hidden" class="login-field" value="10" name="amount">
+        </p>
+
+          <p class="submit">
+          <input type="submit" name="submit" id="submit" class="btn" value="Pay Now"/></p>
+        
+      </form>
+    </div>
+      <br>
+<footer class="copyright" ><span>Powered by </span><br><a href="http://mtaandao.co.ke" title="Mtaandao Digital Solutions"><img src="m-logo-g.png" width="80px"><br>Mtaandao Digital</a></footer>
+      </center>
+  </div>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="About" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Test" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="TO-DO" />
+    </group>
+
+    <item android:title="Contribute">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_developer_mode_black_24dp"
+                android:title="Github" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_language_black_24dp"
+                android:title="Mtaandao" />
+        </menu>
+    </item>
+
+</menu>
